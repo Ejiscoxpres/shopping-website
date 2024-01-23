@@ -1,6 +1,7 @@
 import React from 'react'
 import { BsFacebook, BsInstagram, BsLinkedin, BsTwitter, BsWhatsapp } from 'react-icons/bs'
 import { FaInstagram } from 'react-icons/fa'
+import { IoLogoYoutube } from 'react-icons/io'
 
 const HeaderTop = () => {
   return (
@@ -26,10 +27,14 @@ const HeaderTop = () => {
             <div className="header_top__icon_wrapper">
             <FaInstagram />
             </div>
+            <div className="header_top__icon_wrapper">
+            <IoLogoYoutube />
+
+            </div>
             </div>
 
             <div className="text-blue-600 text-[14px]">
-            <b>FREE SHIPPING</b> THIS WEEK ORDER OVER - $40
+            <b>FOR FREE SHIPPING</b> THIS MONTH ORDER OVER - $40
           </div>
 
           <div className="flex gap-4">
